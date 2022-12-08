@@ -15,7 +15,7 @@ bytes = "1"
 native-tls = { git = "https://github.com/Kr1tos/rust-native-tls.git", branch = "master"}
 hyper = { version = "0.14.2", default-features = false, features = ["tcp", "client"] }
 tokio = "1"
-tokio-native-tls = "0.3"
+tokio-native-tls = {git = "https://github.com/Kr1tos/tls.git", branch = "master"}
 
 [dev-dependencies]
 tokio = { version = "1.0.0", features = ["io-std", "macros", "io-util"] }
